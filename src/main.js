@@ -118,6 +118,9 @@ import TriStateCheckbox from 'primevue/tristatecheckbox';
 import VirtualScroller from 'primevue/virtualscroller';
 import { router } from './router';
 
+// Own component
+import Welcome from '@/components/Welcome.vue';
+
 const app = createApp(App);
 app.use(PrimeVue, { ripple: true });
 // router
@@ -133,6 +136,8 @@ app.directive('ripple', Ripple);
 app.directive('styleclass', StyleClass);
 app.directive('focustrap', FocusTrap);
 app.directive('animateonscroll', AnimateOnScroll);
+
+app.component('Welcome', Welcome);
 
 // Define prime components
 app.component('Button', Button);

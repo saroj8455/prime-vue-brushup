@@ -1,19 +1,19 @@
 <template>
-	<h1>Prime Vue Tutorial</h1>
-	<div class="card flex flex-column gap-2 w-5 justify-content-center">
-		<Button label="Check" icon="pi pi-check" />
-		<Calendar v-model="date" />
-	</div>
 	<!-- <HelloWorld msg="Vite + Vue" /> -->
+	<Welcome />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import HelloWorld from '@/components/HelloWorld.vue';
+import Welcome from '@/components/Welcome.vue';
 export default {
 	data() {
 		return {
 			date: null,
+			checked: false,
+			username: '',
 		};
 	},
+	method: {},
 };
 </script>
