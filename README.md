@@ -5,3 +5,15 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
 
 - data properties and method
+- conditional rendering - v-if,v-for etc.
+- forms - v-model, two way databinding
+- event handling - @click etc.
+- lifecycle hooks - created, mounted, unmount
+- watchers and computed properties
+- router
+- vuex
+- axios
+- vue cli
+- vue ui
+- vue devtools
+- vue server
